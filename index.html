@@ -19,6 +19,7 @@
     <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style-cozy.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
 
 </head>
 
@@ -37,37 +38,99 @@
             </div>
             <!--menu-->
             <section class="container">
-               <div class="menu-header row">
-                   <!--logo image-->
-                   <a class="logo-cozy col-sm-2" href="http://cozystudio.net">
-                    <h1>
-                        <img src="http://cozystudio.net/wp-content/uploads/2013/10/Untitled-1.png"
-                         alt="logo" class="logo">
-                    </h1>
-                   </a>
-                   <!--navbar-->
-                   <nav class="navbar-left col-sm-5" role="navigation">
-                        <div class="menu-header-left">
-                            <ul class="nav nav-pills main-nav main-nav-left">
-                                <li class="menu-item " id="menu-item"><a href="#">TRANG CHỦ</a></li>
-                                <li class="menu-item"><a href="#">ALBUM</a></li>
-                                <li class="menu-item"><a href="#">GÓI DỊCH VỤ</a></li>
-                                <li class="menu-item"><a href="#">ĐỐI TÁC</a></li>
-                                <li class="menu-item"><a href="#">KHUYẾN MÃI</a></li>
-                                <li class="menu-item"><a href="#">CHÚNG TÔI</a></li>
-                            </ul>
-                        </div>
-                   </nav>
+                <div class="menu-header row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" style="background: gray">
+                            <span class="icon-bar" style="background-color: black"></span>
+                            <span class="icon-bar" style="background-color: black"></span>
+                            <span class="icon-bar" style="background-color: black"></span>
+                        </button>
+                        <!--logo-->
+                        <a class="navbar-brand"><img src="http://cozystudio.net/wp-content/uploads/2013/10/Untitled-1.png" height="100px"></a>
+                    </div>
+                    <!--navbar-->
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <nav class="nav navbar-nav navbar-left" role="navigation">
+                            <div class="menu-header-left">
+                                <ul class="nav nav-pills main-nav main-nav-left">
+                                    <li class="menu-item " id="menu-item"><a href="#">TRANG CHỦ</a></li>
+                                    <li class="menu-item"><a href="#">ALBUM</a></li>
+                                    <li class="menu-item"><a href="#">GÓI DỊCH VỤ</a></li>
+                                    <li class="menu-item"><a href="#">ĐỐI TÁC</a></li>
+                                    <li class="menu-item"><a href="#">KHUYẾN MÃI</a></li>
+                                    <li class="menu-item"><a href="#">CHÚNG TÔI</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!--booking image-->
+                        <a class="navbar-right hidden-xs" href="#"><span class="booking" style="background:url('http://cozystudio.net/wp-content/uploads/2013/10/tag-contact-vi1.png') no-repeat"></span></a>
+
+                    </div>
                 </div>
-                <!--booking image-->
-                <a href="#"><span class="booking" style="background:url('http://cozystudio.net/wp-content/uploads/2013/10/tag-contact-vi1.png') no-repeat"></span></a> 
             </section>
         </header>
         <!--end header-->
         <!--main-->
-        <section id="main" >
-            
-        </section>
+        <div id="main">
+            <!--content1-->
+            <div class="container">
+                <!--slider-->
+                <div class="carousel slide" data-ride="carousel" id="myCarousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/1.jpg" width="100%" height="100px">
+                        </div>
+                        <div class="item">
+                            <img src="img/6.jpg" width="100%" height="100px">
+                        </div>
+                        <div class="item">
+                            <img src="img/10.jpg" width="100%" height="100px">
+                        </div>
+                        <div class="item">
+                            <img src="img/61.jpg" width="100%" height="100px">
+                        </div>
+                    </div>
+                    <!--left and right-->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Prev</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                 <!--end slider-->
+                 <!--latest news-->
+                 <div class="promotion row">
+                     <div class="latest-news-login col-md-6">
+                         <div class="latest-news">
+                             <span class="bg-top"></span>
+                             <p>
+                                 <a href="#" id="news">thông tin mới</a>
+                                 <a href="#">Cozy chuyển đến địa chỉ mới</a>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+                 <!--end lastest news-->
+            </div>
+            <!--end content1--> 
+            <!--content2-->
+            <div class="container social-bar" style="max-width: 940px;">
+                <ul>
+                    <li class="social-menu"></li>
+                </ul>
+            </div>         
+        </div>
+        <!--end main-->
     </div>
 </body>
 

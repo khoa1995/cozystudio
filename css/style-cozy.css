@@ -11,8 +11,10 @@
     right: 9%;
     width: 97px;
     height: 180px;
+    z-index: 1000;
 }
 header{
+    
     z-index: 1000;
 }
 .multi-language{
@@ -108,9 +110,63 @@ header{
     border-bottom: 3px solid deeppink;
 }
 #main{
-    margin-top:-154px;
-    top:0;
+    background-position: center;
+    background-image: url("../img/bg-container.png");
     height: 1000px;
-    background-image: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-container.png');
 }
+#myCarousel{
+    margin-top:5%;
+}
+.navbar-brand{
+    height: 100%;
+    padding-bottom:0;
+    padding-top:10px;
+}
+#news{
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 15px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+}
+.promotion{
+    margin:25px 0 0;
+}
+.promotion .latest-news-login{
+    padding-left: 10px;
+}
+.promotion .latest-news-login .latest-news{
+    position: relative;
+    padding:12px 0;
+    width: 60%;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png')
+    repeat-x bottom scroll transparent;
+}
+.promotion .latest-news-login .latest-news p a{
+    color: white;
+    font-weight: 700;
+}
+.bg-top{
+    height: 2px;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 323px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png')
+    repeat-x scroll transparent;
+}
+.social-bar{
+    background: white;
+    margin-top: 25px;
+}
+.social-menu{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    padding:6px;
+}
+
 
