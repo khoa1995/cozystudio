@@ -13,9 +13,37 @@
     height: 180px;
     z-index: 1000;
 }
+.bg-top{
+    height: 2px;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 323px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png')
+    repeat-x scroll transparent;
+}
+.border{
+    top:-9px;
+    position: absolute;
+    width:35px;
+    height: 28px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png')
+    no-repeat scroll -535px -225px transparent;
+    z-index: 9999;
+}
+.page-content .bg-page-bottom{
+    height: 61px;
+    display: block;
+    width: 100%;
+}
 header{
     
     z-index: 1000;
+}
+.list-package{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .multi-language{
     position: absolute;
@@ -54,6 +82,16 @@ header{
     color: white;
     font-family: OpenSans-Bold;
     font-weight: 700;
+}
+.menu-meta{
+    display: inline-block;
+    width: 100%;
+}
+.menu-meta .nav-pills li a{
+    color: #848484;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 10px;
 }
 .nav-pills li.active a{
     background-color: transparent;
@@ -112,7 +150,7 @@ header{
 #main{
     background-position: center;
     background-image: url("../img/bg-container.png");
-    height: 1000px;
+    height: auto;
 }
 #myCarousel{
     margin-top:5%;
@@ -121,6 +159,14 @@ header{
     height: 100%;
     padding-bottom:0;
     padding-top:10px;
+}
+.main-content{
+    height: 100%;
+    width: auto;
+    background-image: url('http://cozystudio.net/wp-content/themes/cozystudio/images/mid-content-2.jpg');
+    min-height: 510px;
+    border-left: 1px solid #f1eed8;
+    padding: 0 35px;
 }
 #news{
     display: inline-block;
@@ -149,16 +195,76 @@ header{
     color: white;
     font-weight: 700;
 }
-.bg-top{
-    height: 2px;
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 323px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png')
-    repeat-x scroll transparent;
+.page-content{
+    min-height: 500px;
+    padding-bottom: 20px;
+    margin-top: 25px! important;
 }
+.page-content .bg-page-top{
+    height: 57px;
+    width: 100%;
+    background-image: url('http://cozystudio.net/wp-content/themes/cozystudio/images/top-content-1.png');
+    display: block;
+}
+.post-content{
+    color:#a2a2a2;
+    min-height: 210px;
+    margin:0;
+    padding-top: 32px;
+}
+.pagination li a{
+    margin-right:5px;
+    color: black;
+}
+.facebook{
+    font-weight: 600;
+    font-size: 11px;
+    color: #294da2;
+    line-height: 28px;
+    padding-left: 0!important;
+}
+.img-facebook{
+    float: right;
+    width: 35px;
+    height: 37px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') 
+    no-repeat 0 0 transparent;
+}
+.img-follow{
+    float: right;
+    width: 35px;
+    height: 37px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') 
+    no-repeat 0 -75px transparent;
+}
+.img-twitter{
+    float: right;
+    width: 35px;
+    height: 37px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') 
+    no-repeat 0 -150px transparent;
+}
+.img-yahoo{
+    float: right;
+    width: 35px;
+    height: 37px;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/yahoo.png') 
+    no-repeat 0 0 transparent;
+}
+.img-post img:hover{
+    border:4px solid #54B67C;
+}
+.social{
+    display: inline-block;
+}
+.social span{
+    float: left;
+    padding-right: 5px;
+}
+
 .social-bar{
+    width:86%;
+    margin-left:7%;
     background: white;
     margin-top: 25px;
 }
@@ -168,5 +274,30 @@ header{
     width: 100%;
     padding:6px;
 }
-
+.list-package .post-content .text{
+    padding-right: 60px;
+}
+.list-package .post-content .text a .title{
+    color: #a2a2a2;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Open Sans',Arial,sans-serif; 
+    padding-bottom: 5px;
+    line-height: 24px;
+}
+.list-package .post-content .text a .title:hover{
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans',Arial,sans-serif; 
+    padding-bottom: 5px;
+    line-height: 24px;
+}
+footer ul span{
+    color: #848484;
+    padding: 5px 0 5px 5px;
+    float: right;
+    font-weight: 600;
+    font-size: 10px;
+}
 
