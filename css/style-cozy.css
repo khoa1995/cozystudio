@@ -1,0 +1,116 @@
+.background-language{
+    display: block;
+    width: 100%;
+    height: 21px;
+    background: #340001;
+    border-bottom: 4px solid #d596a8;
+}
+.booking{
+    position: absolute;
+    top: 5%;
+    right: 9%;
+    width: 97px;
+    height: 180px;
+}
+header{
+    z-index: 1000;
+}
+.multi-language{
+    position: absolute;
+    right: 0;
+    top:-11px;
+}
+  @font-face{
+            font-family: OpenSans-Light;
+            src: url("../font/OpenSans-Light.ttf") format("truetype");
+            font-style: normal;
+        }
+.multi-language ul li a{
+    color: white;
+    font-family: OpenSans-Light;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px 15px;
+}
+ @font-face{
+            font-family: OpenSans-Bold;
+            src: url("../font/OpenSans-Bold.ttf") format("truetype");
+            font-style: normal;
+        }
+.multi-language ul li a{
+    color: #a6aeb0;
+    font-family: OpenSans-Bold;
+    font-weight: 500;
+}
+.multi-language ul li a:hover{
+    color:blue;
+    background-color: transparent;
+    font-family: OpenSans-Bold;
+    font-weight: 700;
+}
+.multi-language ul li:active a{
+    color: white;
+    font-family: OpenSans-Bold;
+    font-weight: 700;
+}
+.nav-pills li.active a{
+    background-color: transparent;
+}
+.menu-header{
+    margin: 0;
+}
+.container a{
+    text-decoration: none;
+    outline-style: none;
+}
+.logo-cozy{
+    display: block;
+    padding: 0;
+}
+.logo{
+    max-width: 100%;
+    height: 107px;
+    margin:auto;
+    display: block;
+}
+.menu-header nav{
+    width: 82%;
+    line-height: 87px;
+}
+.menu-item{
+    background: url(img/dot.png)
+    no-repeat scroll left 50% transparent;
+    margin: 0;
+    position: relative;
+}
+.menu-header-left .nav li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+}
+.menu-header-left .nav li a:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background: none;
+    color:deeppink;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid deeppink;
+}
+.menu-header-left .nav #menu-item a{
+    color: deeppink;
+    border-bottom: 3px solid deeppink;
+}
+#main{
+    margin-top:-154px;
+    top:0;
+    height: 1000px;
+    background-image: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-container.png');
+}
+
