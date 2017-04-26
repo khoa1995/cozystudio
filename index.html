@@ -15,7 +15,8 @@
     <link rel="icon" href="http://cozystudio.net/wp-content/themes/cozystudio/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-
+    <script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style-cozy.css">
     <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
@@ -54,7 +55,7 @@
                             <div class="menu-header-left">
                                 <ul class="nav nav-pills main-nav main-nav-left">
                                     <li class="menu-item " id="menu-item"><a href="#">TRANG CHỦ</a></li>
-                                    <li class="menu-item"><a href="#">ALBUM</a></li>
+                                    <li class="menu-item"><a href="album.html">ALBUM</a></li>
                                     <li class="menu-item"><a href="#">GÓI DỊCH VỤ</a></li>
                                     <li class="menu-item"><a href="#">ĐỐI TÁC</a></li>
                                     <li class="menu-item"><a href="#">KHUYẾN MÃI</a></li>
@@ -152,67 +153,86 @@
                 <div class="page-content">
                     <span class="bg-page-top"></span>
                     <article class="main-content">
-                        <iframe width="869px" height="200px" frameborder="0" allowfullscreen="true" allowtransparency="true" scrolling="no" 
-                        src="https://www.facebook.com/plugins/like_box.php?app_id=253862221436856&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F96nq-xsaNcg.js%3Fversion%3D42%23cb%3Df39d5fd3b71b67%26domain%3Dcozystudio.net%26origin%3Dhttp%253A%252F%252Fcozystudio.net%252Fff3d7c5860a254%26relation%3Dparent.parent&color_scheme=light&container_width=869&header=false&height=200&href=https%3A%2F%2Fwww.facebook.com%2Fcozybfstudio&locale=vi_VN&sdk=joey&show_border=false&show_faces=true&stream=false&width=869"
-                        style="border: none;visibility: visible;width: 500px;height: 154px"></iframe>
+                        <iframe width="869px" height="200px" frameborder="0" allowfullscreen="true" allowtransparency="true" scrolling="no" src="https://www.facebook.com/plugins/like_box.php?app_id=253862221436856&channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F96nq-xsaNcg.js%3Fversion%3D42%23cb%3Df39d5fd3b71b67%26domain%3Dcozystudio.net%26origin%3Dhttp%253A%252F%252Fcozystudio.net%252Fff3d7c5860a254%26relation%3Dparent.parent&color_scheme=light&container_width=869&header=false&height=200&href=https%3A%2F%2Fwww.facebook.com%2Fcozybfstudio&locale=vi_VN&sdk=joey&show_border=false&show_faces=true&stream=false&width=869"
+                            style="border: none;visibility: visible;width: 500px;height: 154px"></iframe>
                         <ul class="list-package">
                             <li class="post-content row">
                                 <div style="position: relative" class="img-post col-lg-3 col-sm-3 col-md-3 col-xs-12">
                                     <a href="#">
                                         <span class="border"></span>
-                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg" >
+                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg">
                                     </a>
                                 </div>
                                 <div style="position: relative" class="text col-lg-9 col-sm-9 col-md-9 col-xs-12">
-                                    <a href="#"><h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2></a>
-                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng đo. Hãy..."				
+                                    <a href="#">
+                                        <h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2>
+                                    </a>
+                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những
+                                    phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé
+                                    gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng
+                                    đo. Hãy..."
                                 </div>
                             </li>
                             <li class="post-content row">
                                 <div style="position: relative" class="img-post col-lg-3 col-sm-3 col-md-3 col-xs-12">
                                     <a href="#">
                                         <span class="border"></span>
-                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg" >
+                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg">
                                     </a>
                                 </div>
                                 <div style="position: relative" class="text col-lg-9 col-sm-9 col-md-9 col-xs-12">
-                                    <a href="#"><h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2></a>
-                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng đo. Hãy..."				
+                                    <a href="#">
+                                        <h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2>
+                                    </a>
+                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những
+                                    phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé
+                                    gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng
+                                    đo. Hãy..."
                                 </div>
                             </li>
                             <li class="post-content row">
                                 <div style="position: relative" class="img-post col-lg-3 col-sm-3 col-md-3 col-xs-12">
                                     <a href="#">
                                         <span class="border"></span>
-                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg" >
+                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg">
                                     </a>
                                 </div>
                                 <div style="position: relative" class="text col-lg-9 col-sm-9 col-md-9 col-xs-12">
-                                    <a href="#"><h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2></a>
-                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng đo. Hãy..."				
+                                    <a href="#">
+                                        <h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2>
+                                    </a>
+                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những
+                                    phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé
+                                    gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng
+                                    đo. Hãy..."
                                 </div>
                             </li>
                             <li class="post-content row">
                                 <div style="position: relative" class="img-post col-lg-3 col-sm-3 col-md-3 col-xs-12">
                                     <a href="#">
                                         <span class="border"></span>
-                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg" >
+                                        <img width="230" height="147" src="http://cozystudio.net/wp-content/uploads/2017/04/phu-kien-chup-anh4-230x147.jpg">
                                     </a>
                                 </div>
                                 <div style="position: relative" class="text col-lg-9 col-sm-9 col-md-9 col-xs-12">
-                                    <a href="#"><h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2></a>
-                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng đo. Hãy..."				
+                                    <a href="#">
+                                        <h2 class="title">Băng đô – Phụ kiện không thể thiếu khi chụp ảnh cho bé gái</h2>
+                                    </a>
+                                    "Chụp ảnh cho bé có vô số những thứ bạn cần phải chuẩn bị nếu muốn có những bức ảnh đẹp. Cho dù là với phong cách nào, những
+                                    phụ kiện nhỏ xinh cùng khiến bức ảnh của bé có thêm nét dễ thương. Khi chụp ảnh cho bé
+                                    gái, một loại phụ kiện rất được các nhiếp ảnh gia và phụ huynh ưa chuộng chính là băng
+                                    đo. Hãy..."
                                 </div>
                             </li>
                             <ul class="pagination">
-                                <li ><a href="#">Page 1 of 12</a></li>
-                    
-                                    <li class="active"><a href="" style="border: 1px solid black; background: transparent; color: black">1</a></li>
-                                    <li><a href="">...</a></li>
-                                    <li><a href="">10</a></li>
-                                    <li><a href="">...</a></li>
-                                    <li><a href="">>></a></li>
-                                
+                                <li><a href="#">Page 1 of 12</a></li>
+
+                                <li class="active"><a href="" style="border: 1px solid black; background: transparent; color: black">1</a></li>
+                                <li><a href="">...</a></li>
+                                <li><a href="">10</a></li>
+                                <li><a href="">...</a></li>
+                                <li><a href="">>></a></li>
+
                                 <li><a href="#">Last</a></li>
                             </ul>
                         </ul>
@@ -249,7 +269,5 @@
         </footer>
     </div>
 </body>
-<script type="text/javascript" src="js/vendor/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 
 </html>
