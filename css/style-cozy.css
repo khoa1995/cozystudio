@@ -300,4 +300,26 @@ footer ul span{
     font-weight: 600;
     font-size: 10px;
 }
+/*album*/
+.content-album{
+    background: white;
+     height: 100px; 
+     margin-bottom: 2%;
+}
+.gallery-title{
+    background: white;
+    margin-top:100px;
+    max-width: 940px;
+}
+.title{
+    margin: 30px 0 10px 32px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #a8736f;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+}
+.content-album .line{
+    margin:20px 15px 20px 15px;
+}
 
