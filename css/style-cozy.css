@@ -402,4 +402,8 @@ footer ul span{
     scroll -46px -25px ;
     
 }
+#vertical img:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+}
 
