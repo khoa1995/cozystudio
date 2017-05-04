@@ -303,7 +303,7 @@ footer ul span{
 /*album*/
 .content-album{
     background: white;
-     height: 100px; 
+     height: auto; 
      margin-bottom: 2%;
 }
 .gallery-title{
@@ -320,6 +320,86 @@ footer ul span{
     text-transform: uppercase;
 }
 .content-album .line{
+    max-width: 81%;
     margin:20px 15px 20px 15px;
+}
+.content-album .item-title{
+    text-align: center;
+    color: #444;
+    border: 1px solid #efefef;
+}
+.content-album .item-title h3{
+    margin:0;
+    font-family: 'Open Sans', 'Arial';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.content-album .item-title h3:hover{
+    color: #e50051;
+}
+.content-album .thumbnail:hover{
+   filter: brightness(0.5);
+}
+.content-album .thumbnail:hover .link{
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/link.png')
+    no-repeat center center;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -15px;
+    margin-top: -51px;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+.portfolio-nav{
+    position: relative;
+    margin-right: 30px;
+}
+.portfolio-nav .prev{
+    float: left;
+}
+.portfolio-nav .close-btn{
+    float: left;
+}
+.portfolio-nav .next{
+    float: left;
+}
+.portfolio-nav .prev a{
+    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
+    scroll 0 0;
+}
+.portfolio-nav .close-btn a{
+    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
+    scroll -23px 0;
+}
+.portfolio-nav .next a{
+    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
+    scroll -46px 0;
+}
+.portfolio-nav  a{
+    display: block;
+    width: 23px;
+    height:25px;
+    float: left;
+    margin-left: 10px;
+    transition: background 0.2s ease;
+}
+.portfolio-nav .prev a:hover{
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
+    scroll 0 -25px  ;
+    
+}
+.portfolio-nav .close-btn a:hover{
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
+    scroll -23px -25px  ;
+    
+}
+.portfolio-nav .next a:hover{
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
+    scroll -46px -25px ;
+    
 }
 
