@@ -226,9 +226,10 @@ header {
 }
 
 .page-content {
+    margin:25px 30px 0 30px;
     min-height: 500px;
     padding-bottom: 20px;
-    margin-top: 25px! important;
+    /*margin-top: 25px! important;*/
 }
 
 .page-content .bg-page-top {
@@ -468,4 +469,55 @@ footer ul span {
 
 #vertical img:focus {
     filter: brightness(0.5);
+}
+
+.img-package-large{
+    height:436px;
+    width: 90%;
+    margin-left:5%;
+    margin-top:3%;
+}
+.location{
+    height: 100%;
+    width: auto;
+    background: white;
+    padding:35px 35px 5px 35px;
+}
+.location .location-detail{
+    text-align: center;
+    padding-top: 25px;
+}
+.partner-title{
+    border-bottom: 2px solid #e1dcd5
+}
+.partner-title a{
+    color: #54B67C;
+    font-weight: 700;
+    padding-left: 1%;
+}
+.description p{
+    margin-top:2%;
+    margin-bottom: 20px;
+    color: #919191;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+.menu-sale .tab{
+    padding-left: 5%;
+}
+.menu-item-sale a{
+    color: #6D6D6D;;
+    font-weight: 900;
+}
+#menu-item-sale a{
+    color: #54B67C;
+    font-weight: 900;
+}
+.menu-sale li a:hover{
+    color: #54B67C;
+    font-weight: 900;
+    background-color: transparent;
+}
+.sale-content p{
+    line-height: 2;
 }
