@@ -75,9 +75,11 @@
 
 #carousel-pager .carousel-control.left {
     bottom: initial;
-    width: 100%;
+    width: 44%;
+    left: 14px;
 }
 #carousel-pager .carousel-control.right {
     top: initial;
-    width: 100%;
+    width: 44%;
+    left:0;
 }

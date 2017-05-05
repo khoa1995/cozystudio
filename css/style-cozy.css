@@ -1,11 +1,12 @@
-.background-language{
+.background-language {
     display: block;
     width: 100%;
     height: 21px;
     background: #340001;
     border-bottom: 4px solid #d596a8;
 }
-.booking{
+
+.booking {
     position: absolute;
     top: 5%;
     right: 9%;
@@ -13,117 +14,135 @@
     height: 180px;
     z-index: 1000;
 }
-.bg-top{
+
+.bg-top {
     height: 2px;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 323px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png')
-    repeat-x scroll transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png') repeat-x scroll transparent;
 }
-.border{
-    top:-9px;
+
+.border {
+    top: -9px;
     position: absolute;
-    width:35px;
+    width: 35px;
     height: 28px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png')
-    no-repeat scroll -535px -225px transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') no-repeat scroll -535px -225px transparent;
     z-index: 9999;
 }
-.page-content .bg-page-bottom{
+
+.page-content .bg-page-bottom {
     height: 61px;
     display: block;
     width: 100%;
 }
-header{
-    
+
+header {
     z-index: 1000;
 }
-.list-package{
+
+.list-package {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.multi-language{
+
+.multi-language {
     position: absolute;
     right: 0;
-    top:-11px;
+    top: -11px;
 }
-  @font-face{
-            font-family: OpenSans-Light;
-            src: url("../font/OpenSans-Light.ttf") format("truetype");
-            font-style: normal;
-        }
-.multi-language ul li a{
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url("../font/OpenSans-Light.ttf") format("truetype");
+    font-style: normal;
+}
+
+.multi-language ul li a {
     color: white;
     font-family: OpenSans-Light;
     font-size: 10px;
     font-weight: 700;
     padding: 10px 15px;
 }
- @font-face{
-            font-family: OpenSans-Bold;
-            src: url("../font/OpenSans-Bold.ttf") format("truetype");
-            font-style: normal;
-        }
-.multi-language ul li a{
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("../font/OpenSans-Bold.ttf") format("truetype");
+    font-style: normal;
+}
+
+.multi-language ul li a {
     color: #a6aeb0;
     font-family: OpenSans-Bold;
     font-weight: 500;
 }
-.multi-language ul li a:hover{
-    color:blue;
+
+.multi-language ul li a:hover {
+    color: blue;
     background-color: transparent;
     font-family: OpenSans-Bold;
     font-weight: 700;
 }
-.multi-language ul li:active a{
+
+.multi-language ul li:active a {
     color: white;
     font-family: OpenSans-Bold;
     font-weight: 700;
 }
-.menu-meta{
+
+.menu-meta {
     display: inline-block;
     width: 100%;
 }
-.menu-meta .nav-pills li a{
+
+.menu-meta .nav-pills li a {
     color: #848484;
     padding: 5px;
     font-weight: 600;
     font-size: 10px;
 }
-.nav-pills li.active a{
+
+.nav-pills li.active a {
     background-color: transparent;
 }
-.menu-header{
+
+.menu-header {
     margin: 0;
 }
-.container a{
+
+.container a {
     text-decoration: none;
     outline-style: none;
 }
-.logo-cozy{
+
+.logo-cozy {
     display: block;
     padding: 0;
 }
-.logo{
+
+.logo {
     max-width: 100%;
     height: 107px;
-    margin:auto;
+    margin: auto;
     display: block;
 }
-.menu-header nav{
+
+.menu-header nav {
     width: 82%;
     line-height: 87px;
 }
-.menu-item{
-    background: url(img/dot.png)
-    no-repeat scroll left 50% transparent;
+
+.menu-item {
+    background: url(img/dot.png) no-repeat scroll left 50% transparent;
     margin: 0;
     position: relative;
 }
-.menu-header-left .nav li a{
+
+.menu-header-left .nav li a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -133,34 +152,40 @@ header{
     padding-right: 20px;
     border-radius: 0px;
 }
-.menu-header-left .nav li a:hover{
+
+.menu-header-left .nav li a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     font-size: 20px;
     background: none;
-    color:deeppink;
+    color: deeppink;
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 3px solid deeppink;
 }
-.menu-header-left .nav #menu-item a{
+
+.menu-header-left .nav #menu-item a {
     color: deeppink;
     border-bottom: 3px solid deeppink;
 }
-#main{
+
+#main {
     background-position: center;
     background-image: url("../img/bg-container.png");
     height: auto;
 }
-#myCarousel{
-    margin-top:5%;
+
+#myCarousel {
+    margin-top: 5%;
 }
-.navbar-brand{
+
+.navbar-brand {
     height: 100%;
-    padding-bottom:0;
-    padding-top:10px;
+    padding-bottom: 0;
+    padding-top: 10px;
 }
-.main-content{
+
+.main-content {
     height: 100%;
     width: auto;
     background-image: url('http://cozystudio.net/wp-content/themes/cozystudio/images/mid-content-2.jpg');
@@ -168,7 +193,8 @@ header{
     border-left: 1px solid #f1eed8;
     padding: 0 35px;
 }
-#news{
+
+#news {
     display: inline-block;
     padding-left: 12px;
     padding-right: 15px;
@@ -178,140 +204,161 @@ header{
     color: white;
     text-shadow: 1px 1px 1px white;
 }
-.promotion{
-    margin:25px 0 0;
+
+.promotion {
+    margin: 25px 0 0;
 }
-.promotion .latest-news-login{
+
+.promotion .latest-news-login {
     padding-left: 10px;
 }
-.promotion .latest-news-login .latest-news{
+
+.promotion .latest-news-login .latest-news {
     position: relative;
-    padding:12px 0;
+    padding: 12px 0;
     width: 60%;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png')
-    repeat-x bottom scroll transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/bg-top.png') repeat-x bottom scroll transparent;
 }
-.promotion .latest-news-login .latest-news p a{
+
+.promotion .latest-news-login .latest-news p a {
     color: white;
     font-weight: 700;
 }
-.page-content{
+
+.page-content {
     min-height: 500px;
     padding-bottom: 20px;
     margin-top: 25px! important;
 }
-.page-content .bg-page-top{
+
+.page-content .bg-page-top {
     height: 57px;
     width: 100%;
     background-image: url('http://cozystudio.net/wp-content/themes/cozystudio/images/top-content-1.png');
     display: block;
 }
-.post-content{
-    color:#a2a2a2;
+
+.post-content {
+    color: #a2a2a2;
     min-height: 210px;
-    margin:0;
+    margin: 0;
     padding-top: 32px;
 }
-.pagination li a{
-    margin-right:5px;
+
+.pagination li a {
+    margin-right: 5px;
     color: black;
 }
-.facebook{
+
+.facebook {
     font-weight: 600;
     font-size: 11px;
     color: #294da2;
     line-height: 28px;
     padding-left: 0!important;
 }
-.img-facebook{
+
+.img-facebook {
     float: right;
     width: 35px;
     height: 37px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') 
-    no-repeat 0 0 transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') no-repeat 0 0 transparent;
 }
-.img-follow{
+
+.img-follow {
     float: right;
     width: 35px;
     height: 37px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') 
-    no-repeat 0 -75px transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') no-repeat 0 -75px transparent;
 }
-.img-twitter{
+
+.img-twitter {
     float: right;
     width: 35px;
     height: 37px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') 
-    no-repeat 0 -150px transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/sprite.png') no-repeat 0 -150px transparent;
 }
-.img-yahoo{
+
+.img-yahoo {
     float: right;
     width: 35px;
     height: 37px;
-    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/yahoo.png') 
-    no-repeat 0 0 transparent;
+    background: url('http://cozystudio.net/wp-content/themes/cozystudio/images/yahoo.png') no-repeat 0 0 transparent;
 }
-.img-post img:hover{
-    border:4px solid #54B67C;
+
+.img-post img:hover {
+    border: 4px solid #54B67C;
 }
-.social{
+
+.social {
     display: inline-block;
 }
-.social span{
+
+.social span {
     float: left;
     padding-right: 5px;
 }
 
-.social-bar{
-    width:86%;
-    margin-left:7%;
+.social-bar {
+    width: 86%;
+    margin-left: 7%;
     background: white;
     margin-top: 25px;
 }
-.social-menu{
+
+.social-menu {
     display: inline-block;
     height: 40px;
     width: 100%;
-    padding:6px;
+    padding: 6px;
 }
-.list-package .post-content .text{
+
+.list-package .post-content .text {
     padding-right: 60px;
 }
-.list-package .post-content .text a .title{
+
+.list-package .post-content .text a .title {
     color: #a2a2a2;
     font-weight: 600;
     font-size: 14px;
-    font-family: 'Open Sans',Arial,sans-serif; 
+    font-family: 'Open Sans', Arial, sans-serif;
     padding-bottom: 5px;
     line-height: 24px;
 }
-.list-package .post-content .text a .title:hover{
+
+.list-package .post-content .text a .title:hover {
     color: green;
     font-weight: bold;
     font-size: 14px;
-    font-family: 'Open Sans',Arial,sans-serif; 
+    font-family: 'Open Sans', Arial, sans-serif;
     padding-bottom: 5px;
     line-height: 24px;
 }
-footer ul span{
+
+footer ul span {
     color: #848484;
     padding: 5px 0 5px 5px;
     float: right;
     font-weight: 600;
     font-size: 10px;
 }
+
+
 /*album*/
-.content-album{
+
+.content-album {
     background: white;
-     height: auto; 
-     margin-bottom: 2%;
+    height: auto;
+    margin-bottom: 2%;
 }
-.gallery-title{
+
+.gallery-title {
     background: white;
-    margin-top:100px;
+    margin-top: 100px;
     max-width: 940px;
 }
-.title{
+
+.title {
     margin: 30px 0 10px 32px;
     font-size: 36px;
     font-weight: 300;
@@ -319,91 +366,106 @@ footer ul span{
     font-family: 'Open Sans';
     text-transform: uppercase;
 }
-.content-album .line{
+
+.content-album .line {
     max-width: 81%;
-    margin:20px 15px 20px 15px;
+    margin: 20px 15px 20px 15px;
 }
-.content-album .item-title{
+
+.content-album .item-title {
     text-align: center;
     color: #444;
     border: 1px solid #efefef;
 }
-.content-album .item-title h3{
-    margin:0;
+
+.content-album .item-title h3 {
+    margin: 0;
     font-family: 'Open Sans', 'Arial';
     font-size: 14px;
     font-weight: 600;
     line-height: 60px;
 }
-.content-album .item-title h3:hover{
+
+.content-album .item-title h3:hover {
     color: #e50051;
 }
-.content-album .thumbnail:hover{
-   filter: brightness(0.5);
+
+.content-album .thumbnail:hover {
+    filter: brightness(0.5);
 }
-.content-album .thumbnail:hover .link{
-    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/link.png')
-    no-repeat center center;
+
+.content-album .thumbnail:hover .link {
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/link.png') no-repeat center center;
     width: 30px;
     height: 30px;
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     margin-left: -15px;
     margin-top: -51px;
     transition: all 0.2s ease;
     z-index: 10;
 }
-.portfolio-nav{
+
+.portfolio-nav {
     position: relative;
     margin-right: 30px;
 }
-.portfolio-nav .prev{
+
+.portfolio-nav .prev {
     float: left;
 }
-.portfolio-nav .close-btn{
+
+.portfolio-nav .close-btn {
     float: left;
 }
-.portfolio-nav .next{
+
+.portfolio-nav .next {
     float: left;
 }
-.portfolio-nav .prev a{
-    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
-    scroll 0 0;
+
+.portfolio-nav .prev a {
+    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png') scroll 0 0;
 }
-.portfolio-nav .close-btn a{
-    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
-    scroll -23px 0;
+
+.portfolio-nav .close-btn a {
+    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png') scroll -23px 0;
 }
-.portfolio-nav .next a{
-    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
-    scroll -46px 0;
+
+.portfolio-nav .next a {
+    background: #efefef url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png') scroll -46px 0;
 }
-.portfolio-nav  a{
+
+.portfolio-nav a {
     display: block;
     width: 23px;
-    height:25px;
+    height: 25px;
     float: left;
     margin-left: 10px;
     transition: background 0.2s ease;
 }
-.portfolio-nav .prev a:hover{
-    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
-    scroll 0 -25px  ;
-    
+
+.portfolio-nav .prev a:hover {
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png') scroll 0 -25px;
 }
-.portfolio-nav .close-btn a:hover{
-    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
-    scroll -23px -25px  ;
-    
+
+.portfolio-nav .close-btn a:hover {
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png') scroll -23px -25px;
 }
-.portfolio-nav .next a:hover{
-    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png')
-    scroll -46px -25px ;
-    
+
+.portfolio-nav .next a:hover {
+    background: #e50051 url('http://cozystudio.net/wp-content/themes/cozystudio/img/portfolio-arrows.png') scroll -46px -25px;
 }
-#vertical img:hover{
+
+#vertical img:hover {
     cursor: pointer;
     filter: brightness(0.5);
 }
 
+#vertical img:focus {
+    filter: brightness(0.5);
+}
+
+#vertical img:focus {
+    filter: brightness(0.5);
+}
