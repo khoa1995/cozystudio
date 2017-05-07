@@ -528,6 +528,7 @@ footer ul span {
     display: none;
     z-index: 9;
     list-style: none;
+	background-color: white;
 }
 /*slider about us*/
 @import url(https://fonts.googleapis.com/css?family=Donegal+One&subset=latin,latin-ext);
@@ -1013,7 +1014,43 @@ footer ul span {
 #wowslider-container1 .ws_bulframe div div {
 	height: auto;
 }
-
+.text-about-us{
+	margin-top:2%;
+	line-height: 2;
+}
+/*service*/
+.box {
+	display: none;
+}
+.box2{
+	display: none;
+}
+.box-img{
+	margin-top: 2%;
+	height: 400px;
+	margin-bottom: 2px;
+}
+.box-img img{
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+}
+.box-img img:hover{
+	opacity: 1;
+}
+.box-detail01{
+	background: #f1f1f1;
+	display: none;
+}
+.box-detail02{
+	display: none;
+}
+.box-detail03{
+	display: none;
+}
+/*.box-img:active{
+	border-bottom: 3px solid red;
+}*/
 @media all and (max-width:760px) {
 	#wowslider-container1 .ws_fullscreen {
 		display: block;

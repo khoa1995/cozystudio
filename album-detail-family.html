@@ -56,11 +56,17 @@
                             <div class="menu-header-left">
                                 <ul class="nav nav-pills main-nav main-nav-left">
                                     <li class="menu-item "><a href="index.html">TRANG CHỦ</a></li>
-                                    <li class="menu-item" id="menu-item"><a href="album.html">ALBUM</a></li>
-                                    <li class="menu-item"><a href="#">GÓI DỊCH VỤ</a></li>
-                                    <li class="menu-item"><a href="#">ĐỐI TÁC</a></li>
-                                    <li class="menu-item"><a href="#">KHUYẾN MÃI</a></li>
-                                    <li class="menu-item"><a href="#">CHÚNG TÔI</a></li>
+                                    <li class="menu-item"><a href="album.html">ALBUM</a></li>
+                                    <li class="menu-item"><a href="services.html">GÓI DỊCH VỤ</a></li>
+                                    <li class="menu-item"><a href="partner.html">ĐỐI TÁC</a></li>
+                                    <li class="menu-item"><a href="sale.html">KHUYẾN MÃI</a></li>
+                                    <li class="menu-item" onmouseover="showitem()" onmouseout="hideitem()" id="menu-item"><a href="about-us.html">CHÚNG TÔI</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="new-info.html">Thông tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -194,6 +200,15 @@
             </ul>
         </footer>
     </div>
+    <script>
+        function showitem() {
+            $('.sub-menu').show();
+        }
+
+        function hideitem() {
+            $('.sub-menu').hide();
+        }
+    </script>
 </body>
 
 </html>

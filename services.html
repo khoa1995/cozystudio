@@ -56,10 +56,16 @@
                                 <ul class="nav nav-pills main-nav main-nav-left">
                                     <li class="menu-item "><a href="index.html">TRANG CHỦ</a></li>
                                     <li class="menu-item"><a href="album.html">ALBUM</a></li>
-                                    <li class="menu-item" id="menu-item"><a href="services.html">GÓI DỊCH VỤ</a></li>
+                                    <li class="menu-item"><a href="services.html">GÓI DỊCH VỤ</a></li>
                                     <li class="menu-item"><a href="partner.html">ĐỐI TÁC</a></li>
-                                    <li class="menu-item"><a href="#">KHUYẾN MÃI</a></li>
-                                    <li class="menu-item"><a href="#">CHÚNG TÔI</a></li>
+                                    <li class="menu-item"><a href="sale.html">KHUYẾN MÃI</a></li>
+                                    <li class="menu-item" onmouseover="showitem()" onmouseout="hideitem()" id="menu-item"><a href="about-us.html">CHÚNG TÔI</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="new-info.html">Thông tin mới</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -78,11 +84,71 @@
                     <div class="content-album" style="margin-bottom: 0">
                         <!--img1-->
                         <div class="large-image">
-                            <img src="http://cozystudio.net/wp-content/uploads/2015/11/nat-style.jpg" class="img-package-large">
+                            <img src="http://cozystudio.net/wp-content/uploads/2015/11/nat-style.jpg" class="img-package-large" onclick="subImg()">
                         </div>
+                        <!--sub-img-->
+                        <div class="box">
+                            <div class="box-img col-md-4" id="box1" onclick="subImgDetail01()">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/LE.jpg" alt="">
+                            </div>
+                            <div class="box-img col-md-4" id="box2" onclick="subImgDetail02()">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/sunshine1.jpg" alt="">
+                            </div>
+                            <div class="box-img col-md-4" id="box3" onclick="subImgDetail03()">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--sub-img-detail01-->
+                        <div class="box-detail01">
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/CHOI1.jpg" alt="">
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/HAT.jpg" alt="">
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/MAM.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--sub-img-detail02-->
+                        <div class="box-detail02">
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/cay1.jpg" alt="">
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/HOA2.jpg" alt="">
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/LA.jpg" alt="">
+                            </div>
+                        </div>
+                        <!--sub-img-detail03-->
+                        <div class="box-detail03">
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB30.jpg" alt="">
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB20.jpg" alt="">
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+
                         <!--img2-->
                         <div class="large-image">
-                            <img src="http://cozystudio.net/wp-content/uploads/2015/11/pre-style.jpg" class="img-package-large">
+                            <img src="http://cozystudio.net/wp-content/uploads/2015/11/pre-style.jpg" class="img-package-large" onclick="subImg2()">
+                        </div>
+                        <div class="box2">
+                            <div class=" box-img col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2016/02/ALE-MOI.jpg" alt="">
+                            </div>
+                            <div class="box-img col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB20-moi.jpg" alt="">
+                            </div>
+                            <div class="box-img col-md-4">
+                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB30-moi.jpg" alt="">
+                            </div>
                         </div>
                         <div class="location">
                             <div class="location-detail">
@@ -134,6 +200,52 @@
             </ul>
         </footer>
     </div>
+    <script>
+        function showitem() {
+            $('.sub-menu').show();
+        }
+
+        function hideitem() {
+            $('.sub-menu').hide();
+        }
+    </script>
+    <!--script subImg-->
+    <script>
+        function subImg() {
+            $('.box').toggle();
+            $('.box2').css("display","none");
+        }
+        function subImg2(){
+            $('.box2').toggle();
+            $('.box').css("display","none");
+        }
+        function subImgDetail01() {
+            $('.box-detail02').hide();
+            $('.box-detail03').hide();
+            $('#box1 img').css("border-bottom", "3px solid red");
+            $('#box2 img').css("border-bottom", "none");
+            $('#box3 img').css("border-bottom", "none");
+            $('.box-detail01').toggle();
+        }
+
+        function subImgDetail02() {
+            $('.box-detail01').hide();
+            $('.box-detail03').hide();
+            $('#box1 img').css("border-bottom", "none");
+            $('#box3 img').css("border-bottom", "none");
+            $('#box2 img').css("border-bottom", "3px solid red");
+            $('.box-detail02').toggle();
+        }
+
+        function subImgDetail03() {
+            $('.box-detail01').hide();
+            $('.box-detail02').hide();
+            $('#box1 img').css("border-bottom", "none");
+            $('#box2 img').css("border-bottom", "none");
+            $('#box3 img').css("border-bottom", "3px solid red");
+            $('.box-detail03').toggle();
+        }
+    </script>
 </body>
 
 </html>
