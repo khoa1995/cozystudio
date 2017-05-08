@@ -56,10 +56,10 @@
                                 <ul class="nav nav-pills main-nav main-nav-left">
                                     <li class="menu-item "><a href="index.html">TRANG CHỦ</a></li>
                                     <li class="menu-item"><a href="album.html">ALBUM</a></li>
-                                    <li class="menu-item"><a href="services.html">GÓI DỊCH VỤ</a></li>
+                                    <li class="menu-item" id="menu-item"><a href="services.html">GÓI DỊCH VỤ</a></li>
                                     <li class="menu-item"><a href="partner.html">ĐỐI TÁC</a></li>
                                     <li class="menu-item"><a href="sale.html">KHUYẾN MÃI</a></li>
-                                    <li class="menu-item" onmouseover="showitem()" onmouseout="hideitem()" id="menu-item"><a href="about-us.html">CHÚNG TÔI</a>
+                                    <li class="menu-item" onmouseover="showitem()" onmouseout="hideitem()"><a href="about-us.html">CHÚNG TÔI</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item">
                                                 <a href="new-info.html">Thông tin mới</a>
@@ -98,40 +98,42 @@
                                 <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB.jpg" alt="">
                             </div>
                         </div>
-                        <!--sub-img-detail01-->
-                        <div class="box-detail01">
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/CHOI1.jpg" alt="">
+                        <div class="box-detail">
+                            <!--sub-img-detail01-->
+                            <div class="box-detail01">
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/CHOI1.jpg" alt="">
+                                </div>
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/HAT.jpg" alt="">
+                                </div>
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/MAM.jpg" alt="">
+                                </div>
                             </div>
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/HAT.jpg" alt="">
+                            <!--sub-img-detail02-->
+                            <div class="box-detail02">
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/cay1.jpg" alt="">
+                                </div>
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/HOA2.jpg" alt="">
+                                </div>
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/LA.jpg" alt="">
+                                </div>
                             </div>
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/MAM.jpg" alt="">
-                            </div>
-                        </div>
-                        <!--sub-img-detail02-->
-                        <div class="box-detail02">
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/cay1.jpg" alt="">
-                            </div>
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/HOA2.jpg" alt="">
-                            </div>
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/LA.jpg" alt="">
-                            </div>
-                        </div>
-                        <!--sub-img-detail03-->
-                        <div class="box-detail03">
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB30.jpg" alt="">
-                            </div>
-                            <div class=" col-md-4">
-                                <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB20.jpg" alt="">
-                            </div>
-                            <div class=" col-md-4">
-                                <img src="" alt="">
+                            <!--sub-img-detail03-->
+                            <div class="box-detail03">
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB30.jpg" alt="">
+                                </div>
+                                <div class=" col-md-4">
+                                    <img src="http://cozystudio.net/wp-content/uploads/2015/11/PTB20.jpg" alt="">
+                                </div>
+                                <div class=" col-md-4">
+                                    <img src="" alt="">
+                                </div>
                             </div>
                         </div>
 
@@ -213,12 +215,15 @@
     <script>
         function subImg() {
             $('.box').toggle();
-            $('.box2').css("display","none");
+            $('.box2').css("display", "none");
         }
-        function subImg2(){
+
+        function subImg2() {
             $('.box2').toggle();
-            $('.box').css("display","none");
+            $('.box').css("display", "none");
+            $('.box-detail').hide();
         }
+
         function subImgDetail01() {
             $('.box-detail02').hide();
             $('.box-detail03').hide();
