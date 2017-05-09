@@ -54,12 +54,12 @@
                         <nav class="nav navbar-nav navbar-left" role="navigation">
                             <div class="menu-header-left">
                                 <ul class="nav nav-pills main-nav main-nav-left">
-                                     <li class="menu-item "><a href="index.html">TRANG CHỦ</a></li>
+                                    <li class="menu-item "><a href="index.html">TRANG CHỦ</a></li>
                                     <li class="menu-item" id="menu-item"><a href="album.html">ALBUM</a></li>
                                     <li class="menu-item"><a href="services.html">GÓI DỊCH VỤ</a></li>
                                     <li class="menu-item"><a href="partner.html">ĐỐI TÁC</a></li>
                                     <li class="menu-item"><a href="sale.html">KHUYẾN MÃI</a></li>
-                                    <li class="menu-item" onmouseover="showitem()" onmouseout="hideitem()" ><a href="about-us.html">CHÚNG TÔI</a>
+                                    <li class="menu-item" onmouseover="showitem()" onmouseout="hideitem()"><a href="about-us.html">CHÚNG TÔI</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item">
                                                 <a href="new-info.html">Thông tin mới</a>
@@ -88,44 +88,46 @@
                 <div class="content-album">
                     <div class="container" style="margin-left:12%; margin-right: 12%">
                         <hr class="line">
-                        <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 item">
-                            <a href="album-detail-family.html">
+                        <div id="picture">
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 item">
+                                <a href="album-detail-family.html">
 
-                                <div class="thumbnail">
-                                    <img src="http://cozystudio.net/wp-content/uploads/2015/04/5-550x450.jpg">
-                                    <div class="link"></div>
-                                </div>
-                                <div class="item-title">
-                                    <h3>Gia đình</h3>
-                                </div>
+                                    <div class="thumbnail">
+                                        <img src="http://cozystudio.net/wp-content/uploads/2015/04/5-550x450.jpg">
+                                        <div class="link"></div>
+                                    </div>
+                                    <div class="item-title">
+                                        <h3>Gia đình</h3>
+                                    </div>
 
-                            </a>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 item">
+                                <a href="album-detail-natural.html">
+                                    <div class="thumbnail">
+                                        <img src="http://cozystudio.net/wp-content/uploads/2013/11/IMG_9923-eg-15x21-550x450.jpg">
+                                        <div class="link"></div>
+                                    </div>
+                                    <div class="item-title">
+                                        <h3>Phong cách tự nhiên-Natural style</h3>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 item">
+                                <a href="album-detail-precious.html">
+                                    <div class="thumbnail">
+                                        <img src="http://cozystudio.net/wp-content/uploads/2013/11/14409470_603200413138607_1848968187016211042_o-550x450.jpg">
+                                        <div class="link"></div>
+                                    </div>
+                                    <div class="item-title">
+                                        <h3>Phong cách sắp đặt- Precious style</h3>
+                                    </div>
+
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
                         </div>
-                        <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 item">
-                            <a href="album-detail-natural.html">
-                                <div class="thumbnail">
-                                    <img src="http://cozystudio.net/wp-content/uploads/2013/11/IMG_9923-eg-15x21-550x450.jpg">
-                                    <div class="link"></div>
-                                </div>
-                                <div class="item-title">
-                                    <h3>Phong cách tự nhiên-Natural style</h3>
-                                </div>
-
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-lg-3 col-sm-3 col-xs-12 item">
-                            <a href="album-detail-precious.html">
-                                <div class="thumbnail">
-                                    <img src="http://cozystudio.net/wp-content/uploads/2013/11/14409470_603200413138607_1848968187016211042_o-550x450.jpg">
-                                    <div class="link"></div>
-                                </div>
-                                <div class="item-title">
-                                    <h3>Phong cách sắp đặt- Precious style</h3>
-                                </div>
-
-                            </a>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -154,7 +156,7 @@
             </ul>
         </footer>
     </div>
-      <script>
+    <script>
         function showitem() {
             $('.sub-menu').show();
         }
